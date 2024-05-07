@@ -9,8 +9,8 @@
                 <div class="main-title">
                     <h1>
                         <span></span>
-                        <span></span>
-                        <span></span>
+                        <span>dadad</span>
+                        <span>dadad</span>
                     </h1>
                 </div>
                 <div class="floating-img">
