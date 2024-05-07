@@ -9,8 +9,8 @@
                 <div class="main-title">
                     <h1>
                         <span></span>
-                        <span>experiences</span>
-                        <span>worldwide</span>
+                        <span></span>
+                        <span></span>
                     </h1>
                 </div>
                 <div class="floating-img">
