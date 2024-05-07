@@ -8,7 +8,7 @@
             <div class="position-relative">
                 <div class="main-title">
                     <h1>
-                        <span>Building</span>
+                        <span></span>
                         <span>experiences</span>
                         <span>worldwide</span>
                     </h1>
