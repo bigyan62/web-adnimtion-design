@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@font-face {
+    font-family: 'Lausanne';
+    src: url('fonts/Lausanne-Regular.woff2') format('woff2'),
+        url('fonts/Lausanne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+:root{
+    --primary-fonts: 'Lausanne', sans-serif;
+    --primary-color: #2d2d2d;
+    --dark-bg-color: #343434;
+    --white-color: #fff;
+    --default-transition: all 0.3s ease-in-out;
+}
+
+body{
+    font-family: var(--primary-fonts);
+    color: var(--white-color);
+    /* background-image: url('images/bg-new.png'); */
+    background-image: url('images/bg-v2.gif');
+    background-color: #343434;
+    background-repeat: repeat;
+    position: relative;
+}
+.section-gaps{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.list-none{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+h1,h2,h3,h4,h5,h6{
+    color: var(--white-text);
+    line-height: 1.3;
+}
+.inner-container{
+    max-width: 950px;
+    margin: auto;
+}
+
+/*Header CSS*/
+.logo a{
+    font-size: 52px;
+    color: var(--white-color);
+}
+ul.nav-list{
+    background-color: var(--white-color);
+    padding: 10px;
+    border-radius: 5px;
+}
+ul.nav-list li a{
+    color: var(--primary-color);
+    padding: 8px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: var(--default-transition);
+}
+ul.nav-list li a:hover{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+/*End Header CSS*/
+
+/*Footer CSS*/
+
+.foot-link a{
+    color: var(--white-color);
+}
+.foot-logo{
+    text-align: center;
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+.foot-logo a{
+    color: var(--white-color);
+    font-size: 500px;
+    line-height: 0.7;
+    opacity: 80%;
+}
+.foot-logo img{
+    width: 380px;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translatex(-50%);
+    z-index: -1;
+}
+.terms{
+    margin-top: 50px;
+}
+
+/*End Footer CSS*/
+
+/*Banner-section CSS*/
+
+h1{
+    font-size: 100px;
+    line-height: 140px;
+}
+h1 span:nth-child(1){
+    margin-left: 160px;
+}
+h1 span:nth-child(2){
+    margin-left: 330px;
+}
+.banner-section .floating-img .img1{
+    position: absolute;
+    top: 90px;
+}
+.banner-section .floating-img .img2{
+    position: absolute;
+    right: 150px;
+    bottom: 2px;
+    z-index: -1;
+}
+.floating-img img{
+    width: 270px;
+}
+.view-btn{
+    margin-top: 80px;
+}
+.view-btn a{
+    padding: 10px 35px;
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+    border-radius: 5px;
+    background-color: transparent;
+    transition: var(--default-transition);
+    font-size: 21px;
+}
+.view-btn a:hover{
+    color: var(--primary-color);
+    background-color: var(--white-color);
+}
+a.btn{
+    background-color: var(--white-color);
+    border: 1px solid var(--white-color);
+    transition: var(--default-transition);
+}
+a.btn:hover{
+    background-color: var(--primary-color);
+    border: 1px solid var(--white-color);
+}
+/*EnD banner section CSS*/
+
+/*Work section CSS*/
+
+.main-title h2{
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+.sub-title h2{
+    font-size: 100px;
+}
+.work-section .item-box .item+.item{
+    margin-top: 100px;
+}
+.work-section .item-box .item > div{
+    margin-bottom: 30px;
+}
+.spining-img img{
+    width: 300px;
+}
+
+.sticky-spin-img{
+    position: relative;
+}
+.spining-img.sticky{
+    position: sticky;
+    top: 30%;
+}
+
+/*End Work section CSS*/
+
+/*Project section CSS*/
+
+.sub-title h3{
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.img-holder img{
+    height: 480px;
+    object-fit: cover;
+}
+.img-box{
+    position: relative;
+}
+.img-box .list{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px 32px;
+}
+.project-section .sub-title h3{
+
+    margin: 10px 0;
+}
+/*End Project section CSS*/
+
+/*About Section CSS*/
+
+.img6 img{
+    width: 140px;
+}
+.img7 img{
+    width: 240px;
+}
+.img-ice img{
+    width: 300px;
+}
+.about-section .content{
+    position: relative;
+}
+.content{
+    max-width: 890px;
+    margin: auto;
+}
+.content .text{
+    font-size: 58px;
+    line-height: 70px;
+}
+.content .img6{
+    position: absolute;
+    top: 110px;
+    left: -45px;
+    z-index: -1;
+}
+.content .img-ice{
+    position: absolute;
+    top: -180px;
+    right: -90px;
+    z-index: -1;
+}
+.content .img7{
+    position: absolute;
+    bottom: -150px;
+    right: -40px;
+    z-index: -1;
+}
+
+/*End About Section CSS*/
+
+/*Touch CSS*/
+
+.sub-title h2 {
+    position: relative;
+}
+.sub-title h2 span{
+    display: inline-block;
+    width: 270px;
+}
+.sub-title img{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+span.hi-txt{
+    margin-left: 150px;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+span.come-txt{
+    font-size: 16px;
+    position: absolute;
+    top: 130px;
+    right: 50px;
+}
+/*End Touch CSS*/
